@@ -1,11 +1,15 @@
-# Fixes {issueID}
+## Fixes {issueID}
 
-# Changes Proposed
+
+
+## Changes Proposed
 -
 
 -
 
 -
 
-# Additional Context
+
+## Additional Context
+
 Add any links or references to supporting material.
