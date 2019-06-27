@@ -7,11 +7,14 @@ assignees: ''
 
 ---
 
-**Is your task request related to another issue or conversations in Basecamp? Please describe.**
-A clear and concise description of what the task is and links to related/relevant issues or conversations.
+### Description
+A clear and concise description of what the task's scope is.
 
-**Describe the completion**
+### Related to
+List any links to related/relevant issues or conversations.
+
+### Completion criteria
 A clear description of when this task is expected to be completed by and who needs to be notified.
 
-**Additional context**
+### Additional context
 Add any other context (i.e. references) or screenshots about the task here.
