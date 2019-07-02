@@ -315,12 +315,13 @@ Status labels should be coloured ![#86168a](https://placehold.it/15/86168a/00000
 
 When reviewing code keep these guidelines in mind:
 
-- Keep an eye out for [naming conventions](#javascript-styleguide)
+- Keep an eye out for [styleguide](#javascript-styleguide) departures
 
 - Keep an eye out for code smells
   - abstraction leakage
   - functions too large
-  - code that can't be well read or understood)
+  - code that can't be well read or understood
+  - consitent indentation (would indicate code has not been linted)
 
 - Keep an eye out for best practices
   - returning proper HTTP status codes
