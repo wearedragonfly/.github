@@ -88,7 +88,7 @@ export ClassName
 - Place requires in the following order:
   - Built in Node modules (such as `path`)
   - Third part modules (such as `lodash`, `express`)
-  - LaunchFort modules (such as `@launchfort/std`, `@launchfort/xprss`)
+  - LaunchFort and other first-party modules (such as `@launchfort/std`, `@launchfort/xprss`)
   - Local modules (using relative paths)
 
 - Place class properties in the following order:
@@ -142,7 +142,7 @@ export ClassName
 - Place requires in the following order:
   - Built in Node modules (such as `path`)
   - Third part modules (such as `lodash`, `express`)
-  - LaunchFort modules (such as `@launchfort/std`, `@launchfort/xprss`)
+  - LaunchFort and other first-party modules (such as `@launchfort/std`, `@launchfort/xprss`)
   - Local modules (using relative paths)
 
 - Place class properties in the following order:
