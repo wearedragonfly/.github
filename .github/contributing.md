@@ -203,7 +203,7 @@ describe('A user repository', function () {
 
 ### Documentation styleguide
 
-Use [JSDoc](https://jsdoc.app/), specifically the tags supported by [TypeScript](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html).
+Use [JSDoc](https://jsdoc.app/), specifically the tags supported by [TypeScript](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html#supported-jsdoc).
 
 Use [Markdown](https://daringfireball.net/projects/markdown).
 
