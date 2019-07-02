@@ -220,7 +220,7 @@ type DisablePackageOptions = {
   /**
    * Determines if the amount of time taken should be tracked
    */
-  trackTime?: boolean
+  trackTime?: boolean,
   /**
    * Determines if errors should be caught and ignored
    */
