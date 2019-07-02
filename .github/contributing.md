@@ -47,7 +47,7 @@ All code reviews follow the guidelines outlined in the [Code reviews](#code-revi
 
 All JavaScript must adhere to [JavaScript Standard Style](https://standardjs.com/).
 
-See the [JavaScript template repo](TBD) for example setup.
+See the [JavaScript template repo](https://github.com/wearedragonfly/javascript-template) for example setup.
 
 - Use the following naming convention:
   - All modules should use kebob casing (such as `my-profile`)
@@ -96,7 +96,7 @@ export ClassName
 All TyoeScript must adhere to [JavaScript Standard Style](https://standardjs.com/)
 as well as the [TypeScript ESLint recommended](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#usage) ruleset.
 
-See the [TypeScript template repo](TBD) for example setup.
+See the [TypeScript template repo](https://github.com/wearedragonfly/typescript-template) for example setup.
 
 - Use the following naming convention:
   - All modules should use kebob casing (such as `my-profile`)
