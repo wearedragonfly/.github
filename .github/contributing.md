@@ -23,7 +23,7 @@ to this document in a pull request.
 
 [Additional notes](#additional-notes)
 
-- [Issue and pull request labels](#issue-and-pull-request-labels)
+- [Issue labels](#issue-labels)
 
 - [Code reviews](#code-reviews)
 
@@ -261,9 +261,31 @@ the stakeholders and/or code reviewers.
 
 ## Additional notes
 
-### Issue and pull request labels
+### Issue labels
 
-TBD
+All issues should have a label indicating it's type and priority.
+
+*NOTE: All labels should be prefixed with their classification so that they appear
+in the same order for each issue.*
+
+**Priority labels**
+
+Priority labels should be coloured ![#0f7a40](https://placehold.it/15/0f7a40/000000?text=+) `#0f7a40`
+
+- `priority: low` Low priority
+- `priority: medium` Medium priority
+- `priority: high` High priority
+
+**Type labels**
+
+Type labels should be coloured ![#034b9e](https://placehold.it/15/034b9e/000000?text=+) `#034b9e`
+
+- `type: bug` Something isn't working
+- `type: enhancement` New feature or request
+- `type: feedback` Feedback with no actionable task
+- `type: maintenance` Refactor or maintenance work
+- `type: question` Question regarding a feature, refactor etc.
+- `type: test` Test scenario
 
 ### Code reviews
 
