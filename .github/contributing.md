@@ -55,6 +55,7 @@ See the [JavaScript template repo](https://github.com/wearedragonfly/javascript-
   - All classes should use pascal casing (such as `MyProfile`)
   - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
+  - Everything else should use camel casing (such as `const userProfile = {...}`)
 
 - Prefer using `index.js` to re-export modules within a directory to form a module
   of named exports (i.e. `export * from './MyButton'`)
@@ -108,6 +109,7 @@ See the [TypeScript template repo](https://github.com/wearedragonfly/typescript-
   - All classes should use pascal casing (such as `MyProfile`)
   - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
+  - Everything else should use camel casing (such as `const userProfile = {...}`)
 
 - Prefer using `index.ts` to re-export modules within a directory to form a module
   of named exports (i.e. `export * from './MyButton'`)
