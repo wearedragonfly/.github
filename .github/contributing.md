@@ -50,10 +50,14 @@ All JavaScript must adhere to [JavaScript Standard Style](https://standardjs.com
 See the [JavaScript template repo](https://github.com/wearedragonfly/javascript-template) for example setup.
 
 - Use the following naming convention:
-  - All modules should use kebob casing (such as `my-profile`)
+  - All modules should use kebob casing (such as `my-profile`) except for React/Vue components
+  - All React/Vue or other frontend component modules should use pascal cassing (such as `MyButton`)
   - All classes should use pascal casing (such as `MyProfile`)
   - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
+
+- Prefer using `index.js` to re-export modules within a directory to form a module
+  of named exports (i.e. `export * from './MyButton'`)
 
 - Prefer the object spread operator `({...anotherObj})` to `Object.assign()`
 
@@ -99,10 +103,14 @@ as well as the [TypeScript ESLint recommended](https://github.com/typescript-esl
 See the [TypeScript template repo](https://github.com/wearedragonfly/typescript-template) for example setup.
 
 - Use the following naming convention:
-  - All modules should use kebob casing (such as `my-profile`)
+  - All modules should use kebob casing (such as `my-profile`) except for React/Vue components
+  - All React/Vue or other frontend component modules should use pascal cassing (such as `MyButton`)
   - All classes should use pascal casing (such as `MyProfile`)
   - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
+
+- Prefer using `index.ts` to re-export modules within a directory to form a module
+  of named exports (i.e. `export * from './MyButton'`)
 
 - Prefer the object spread operator `({...anotherObj})` to `Object.assign()`
 
