@@ -1,12 +1,11 @@
-### Closes {issueID}, Closes {issueID}, Closes {issueID}
+### Closes
+- Closes #issueID
+- Closes #issueID
 
 
 ### Changes Proposed
--
-
--
-
--
+- Description of change
+- Description of change
 
 
 ### Additional Context
