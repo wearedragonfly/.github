@@ -280,3 +280,6 @@ When reviewing code keep these guidelines in mind:
   - returning proper HTTP status codes
   - wrapping promise-based Express middleware
   - promise chains missing a `.catch(...)`
+
+- If the project supports localized content, keep an eye out for text that
+  should be localized
