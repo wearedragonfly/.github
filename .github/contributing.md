@@ -9,8 +9,6 @@ to this document in a pull request.
 
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
-[How can I contribute?](#how-can-i-contribute)
-
 [Styleguides](#styleguides)
 
 - [JavaScript styleguide](#javascript-styleguide)
@@ -37,23 +35,119 @@ service to this objective.
 
 All code is required to go through static analysis and code reviews before being
 comitted. Static analysis is performed using [SonarLint](https://www.sonarlint.org/)
-connected to the repository's [SonarCloud](https://sonarcloud.io) project.
+connected to the repository's [SonarCloud](https://sonarcloud.io) project. Read
+the [SonarCloud integration documentation](https://3.basecamp.com/4107684/buckets/9378454/documents/1874399417)
+to get your workstation setup.
 
 All code reviews follow the guidelines outlined in the [Code reviews](#code-reviews) section.
-
-## How can I contribute?
-
-TBD
 
 ## Styleguides
 
 ### JavaScript styleguide
 
-TBD
+All JavaScript must adhere to [JavaScript Standard Style](https://standardjs.com/).
+
+See the [JavaScript template repo](TBD) for example setup.
+
+- Use the following naming convention:
+  - All modules should use kebob casing (such as `my-profile`)
+  - All classes should use pascal casing (such as `MyProfile`)
+  - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
+  - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
+
+- Prefer the object spread operator `({...anotherObj})` to `Object.assign()`
+
+- Prefer named exports over `default` exports unless there is a good reason
+```js
+// Use this:
+export class MyClass {}
+
+// Instead of:
+export default class MyClass {}
+```
+
+- Inline exports with expressions whenever possible
+```js
+// Use this:
+export class ClassName {
+
+}
+
+// Instead of:
+class ClassName {
+
+}
+export ClassName
+```
+
+- Place requires in the following order:
+  - Built in Node modules (such as `path`)
+  - Third part modules (such as `lodash`, `express`)
+  - LaunchFort modules (such as `@launchfort/std`, `@launchfort/xprss`)
+  - Local modules (using relative paths)
+
+- Place class properties in the following order:
+  - Class methods and properties (methods and properties starting with `static`)
+  - Constructor
+  - Instance methods and properties
 
 ### TypeScript styleguide
 
-TBD
+All TyoeScript must adhere to [JavaScript Standard Style](https://standardjs.com/)
+as well as the [TypeScript ESLint recommended](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#usage) ruleset.
+
+See the [TypeScript template repo](TBD) for example setup.
+
+- Use the following naming convention:
+  - All modules should use kebob casing (such as `my-profile`)
+  - All classes should use pascal casing (such as `MyProfile`)
+  - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
+  - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
+
+- Prefer the object spread operator `({...anotherObj})` to `Object.assign()`
+
+- Prefer named exports over `default` exports unless there is a good reason
+```js
+// Use this:
+export class MyClass {}
+
+// Instead of:
+export default class MyClass {}
+```
+
+- Inline exports with expressions whenever possible
+```js
+// Use this:
+export class ClassName {
+
+}
+
+// Instead of:
+class ClassName {
+
+}
+export ClassName
+```
+
+- Place requires in the following order:
+  - Built in Node modules (such as `path`)
+  - Third part modules (such as `lodash`, `express`)
+  - LaunchFort modules (such as `@launchfort/std`, `@launchfort/xprss`)
+  - Local modules (using relative paths)
+
+- Place class properties in the following order:
+  - Class methods and properties (methods and properties starting with `static`)
+  - Constructor
+  - Instance methods and properties
+
+- Do not prefix interfaces with `I` unless necessary to improve clarity
+```ts
+// Use this:
+export interface UserDto {}
+
+// Instead of:
+export interface IUserDto {}
+```
 
 ### Specs styleguide
 
@@ -97,7 +191,7 @@ describe('A user repository', function () {
 })
 ```
 
-### Documenatation styleguide
+### Documentation styleguide
 
 Use [JSDoc](https://jsdoc.app/), specifically the tags supported by [TypeScript](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html).
 
@@ -173,4 +267,16 @@ TBD
 
 ### Code reviews
 
-TBD
+When reviewing code keep these guidelines in mind:
+
+- Keep an eye out for [naming conventions](#javascript-styleguide)
+
+- Keep an eye out for code smells
+  - abstraction leakage
+  - functions too large
+  - code that can't be well read or understood)
+
+- Keep an eye out for best practices
+  - returning proper HTTP status codes
+  - wrapping promise-based Express middleware
+  - promise chains missing a `.catch(...)`
