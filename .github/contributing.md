@@ -263,7 +263,12 @@ the stakeholders and/or code reviewers.
 
 ### Issue labels
 
-All issues should have a label indicating it's type and priority.
+All issues should have a label indicating it's type at a minimum.
+
+When a label has been scoped for work (i.e. next spring/release) then a priority
+label should be assigned to it.
+
+As work is progressing a status label should be assigned and removed from it.
 
 *NOTE: All labels should be prefixed with their classification so that they appear
 in the same order for each issue.*
@@ -286,6 +291,15 @@ Type labels should be coloured ![#034b9e](https://placehold.it/15/034b9e/000000?
 - `type: maintenance` Refactor or maintenance work
 - `type: question` Question regarding a feature, refactor etc.
 - `type: test` Test scenario
+
+**Status labels**
+
+Status labels should be coloured ![#86168a](https://placehold.it/15/86168a/000000?text=+) `#86168a`
+
+- `status: blocked` Indicates this issue is blocked by other issues or waiting for for something
+- `status: on hold` Indicates the issue is on hold until further notice
+- `status: in progress` Indicates this issue is in active development
+
 
 ### Code reviews
 
