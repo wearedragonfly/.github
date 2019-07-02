@@ -93,8 +93,9 @@ export ClassName
 
 - Place class properties in the following order:
   - Class methods and properties (methods and properties starting with `static`)
+  - Instance property declaration and initialization (i.e. `class User { name = '' ... }`)
   - Constructor
-  - Instance methods and properties
+  - Instance methods and accessors (i.e. methods and `get` and `set` accessors)
 
 ### TypeScript styleguide
 
@@ -147,8 +148,9 @@ export ClassName
 
 - Place class properties in the following order:
   - Class methods and properties (methods and properties starting with `static`)
+  - Instance property declaration and initialization (i.e. `class User { name = '' ... }`)
   - Constructor
-  - Instance methods and properties
+  - Instance methods and accessors (i.e. methods and `get` and `set` accessors)
 
 - Do not prefix interfaces with `I` unless necessary to improve clarity
 ```ts
