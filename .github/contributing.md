@@ -354,7 +354,7 @@ Type labels should be coloured ![#034b9e](https://placehold.it/15/034b9e/000000?
 
 Status labels should be coloured ![#86168a](https://placehold.it/15/86168a/000000?text=+) `#86168a`
 
-- `status: blocked` Indicates this issue is blocked by other issues or waiting for for something
+- `status: blocked` Indicates this issue is blocked by other issues or waiting for something
 - `status: on hold` Indicates the issue is on hold until further notice
 - `status: in progress` Indicates this issue is in active development
 
