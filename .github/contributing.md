@@ -56,8 +56,28 @@ See the [JavaScript template repo](https://github.com/wearedragonfly/javascript-
   - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
   - Everything else should use camel casing (such as `const userProfile = {...}`)
-  - Private member that are not intended to be part of public APIs should be prefixed with `_` (such as `this._user = {...}`)
-  - Functions declared in a module but that are not exported should be prefixed with `_` (such as `function _getUser (user) {}`)
+
+  - Private member that are not intended to be part of public APIs should be prefixed with `_`
+```js
+class User {
+  private _firstName = ''
+  private _lastName = ''
+  
+  get name () {
+    return this._firstName + ' ' + this._lastName
+  }
+}
+```
+  - Functions declared in a module but that are not exported should be prefixed with `_`
+```js
+export function getUserById (id) {
+  return _doGetUserFromFirebase(id)
+}
+
+function _doGetUserFromFirebase (id) {
+  // ...
+}
+```
 
 - Prefer using `index.js` to re-export modules within a directory to form a module
   of named exports (i.e. `export * from './MyButton'`)
@@ -113,8 +133,28 @@ See the [TypeScript template repo](https://github.com/wearedragonfly/typescript-
   - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
   - Everything else should use camel casing (such as `const userProfile = {...}`)
-  - Private member that are not intended to be part of public APIs should be prefixed with `_` (such as `this._user = {...}`)
-  - Functions declared in a module but that are not exported should be prefixed with `_` (such as `function _getUserRole (user: User) {}`)
+
+  - Private member that are not intended to be part of public APIs should be prefixed with `_`
+```ts
+class User {
+  private _firstName: string
+  private _lastName: string
+  
+  get name () {
+    return this._firstName + ' ' + this._lastName
+  }
+}
+```
+  - Functions declared in a module but that are not exported should be prefixed with `_`
+```ts
+export function getUserById (id: string) {
+  return _doGetUserFromFirebase(id)
+}
+
+function _doGetUserFromFirebase (id: string) {
+  // ...
+}
+```
 
 - Prefer using `index.ts` to re-export modules within a directory to form a module
   of named exports (i.e. `export * from './MyButton'`)
