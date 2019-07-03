@@ -57,7 +57,7 @@ See the [JavaScript template repo](https://github.com/wearedragonfly/javascript-
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
   - Everything else should use camel casing (such as `const userProfile = {...}`)
 
-  - Private member that are not intended to be part of public APIs should be prefixed with `_`
+- Private member that are not intended to be part of public APIs should be prefixed with `_`
 ```js
 class User {
   private _firstName = ''
@@ -68,7 +68,8 @@ class User {
   }
 }
 ```
-  - Functions declared in a module but that are not exported should be prefixed with `_`
+
+- Functions declared in a module but that are not exported should be prefixed with `_`
 ```js
 export function getUserById (id) {
   return _doGetUserFromFirebase(id)
@@ -134,7 +135,7 @@ See the [TypeScript template repo](https://github.com/wearedragonfly/typescript-
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
   - Everything else should use camel casing (such as `const userProfile = {...}`)
 
-  - Private member that are not intended to be part of public APIs should be prefixed with `_`
+- Private member that are not intended to be part of public APIs should be prefixed with `_`
 ```ts
 class User {
   private _firstName: string
@@ -145,7 +146,8 @@ class User {
   }
 }
 ```
-  - Functions declared in a module but that are not exported should be prefixed with `_`
+
+- Functions declared in a module but that are not exported should be prefixed with `_`
 ```ts
 export function getUserById (id: string) {
   return _doGetUserFromFirebase(id)
