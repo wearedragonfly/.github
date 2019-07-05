@@ -50,8 +50,8 @@ All JavaScript must adhere to [JavaScript Standard Style](https://standardjs.com
 See the [JavaScript template repo](https://github.com/wearedragonfly/javascript-template) for example setup.
 
 - Use the following naming convention:
-  - All modules should use kebob casing (such as `my-profile`) except for React/Vue components
-  - All React/Vue or other frontend component modules should use pascal cassing (such as `MyButton`)
+  - All module **files** should use kebob casing (such as `my-profile`) except for React/Vue components
+  - All React/Vue or other frontend component module **files** should use pascal cassing (such as `MyButton`)
   - All classes should use pascal casing (such as `MyProfile`)
   - All factory functions should use pascal casing (such as `User` function that creaets user objects)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
@@ -128,8 +128,8 @@ as well as the [TypeScript ESLint recommended](https://github.com/typescript-esl
 See the [TypeScript template repo](https://github.com/wearedragonfly/typescript-template) for example setup.
 
 - Use the following naming convention:
-  - All modules should use kebob casing (such as `my-profile`) except for React/Vue components
-  - All React/Vue or other frontend component modules should use pascal cassing (such as `MyButton`)
+  - All module **files** should use kebob casing (such as `my-profile`) except for React/Vue components
+  - All React/Vue or other frontend component module **files** should use pascal cassing (such as `MyButton`)
   - All classes should use pascal casing (such as `MyProfile`)
   - All factory functions should use pascal casing (such as `User` function that creaets user objects)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
