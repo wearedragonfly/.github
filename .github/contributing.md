@@ -105,7 +105,7 @@ export class ClassName {
 class ClassName {
 
 }
-export ClassName
+export { ClassName }
 ```
 
 - Place requires in the following order:
@@ -183,7 +183,7 @@ export class ClassName {
 class ClassName {
 
 }
-export ClassName
+export { ClassName }
 ```
 
 - Place requires in the following order:
