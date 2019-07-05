@@ -53,7 +53,7 @@ See the [JavaScript template repo](https://github.com/wearedragonfly/javascript-
   - All modules should use kebob casing (such as `my-profile`) except for React/Vue components
   - All React/Vue or other frontend component modules should use pascal cassing (such as `MyButton`)
   - All classes should use pascal casing (such as `MyProfile`)
-  - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
+  - All factory functions should use pascal casing (such as `User` function that creaets user objects)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
   - Everything else should use camel casing (such as `const userProfile = {...}`)
 
@@ -131,7 +131,7 @@ See the [TypeScript template repo](https://github.com/wearedragonfly/typescript-
   - All modules should use kebob casing (such as `my-profile`) except for React/Vue components
   - All React/Vue or other frontend component modules should use pascal cassing (such as `MyButton`)
   - All classes should use pascal casing (such as `MyProfile`)
-  - All factory functions should use pascal casing (such as `Authorize` as a middleware factory function)
+  - All factory functions should use pascal casing (such as `User` function that creaets user objects)
   - All namespaces should use pascal casing (such as `import * as Path from 'path'`)
   - Everything else should use camel casing (such as `const userProfile = {...}`)
 
