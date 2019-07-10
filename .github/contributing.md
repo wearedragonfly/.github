@@ -122,7 +122,7 @@ export { ClassName }
 
 ### TypeScript styleguide
 
-All TyoeScript must adhere to [JavaScript Standard Style](https://standardjs.com/)
+All TypeScript must adhere to [JavaScript Standard Style](https://standardjs.com/)
 as well as the [TypeScript ESLint recommended](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#usage) ruleset.
 
 See the [TypeScript template repo](https://github.com/wearedragonfly/typescript-template) for example setup.
