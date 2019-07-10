@@ -1,4 +1,4 @@
-# Contributing to onbaordMD
+# Contributing to onboardMD
 
 The following is a set of guidelines for contributing to onboardMD and its packages,
 which are hosted in the Wearedragonfly organization on GitHub. These are mostly
