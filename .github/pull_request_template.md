@@ -1,7 +1,5 @@
 ### Closes
-Closed #issueID
-
-Closed #issueID
+Closed #issueID, closed #issueID
 
 
 ### Changes Proposed
