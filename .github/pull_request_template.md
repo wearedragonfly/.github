@@ -1,6 +1,6 @@
 ### Closes
-- Closes #issueID
-- Closes #issueID
+Closed #issueID
+Closed #issueID
 
 
 ### Changes Proposed
