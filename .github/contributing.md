@@ -29,10 +29,6 @@ to this document in a pull request.
 
 ## What should I know before I get started?
 
-onboardMD is a software platform developed for MD Financial. It is a platform
-aimed at helping aspiring doctors reach their goals. Every decision should be in
-service to this objective.
-
 All code is required to go through static analysis and code reviews before being
 comitted. Static analysis is performed using [SonarLint](https://www.sonarlint.org/)
 connected to the repository's [SonarCloud](https://sonarcloud.io) project. Read
